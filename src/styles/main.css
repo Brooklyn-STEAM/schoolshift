@@ -1,2 +1,15 @@
 @import "tailwindcss";
 
+@theme {
+    --color-mobster-50: #faf9fa;
+    --color-mobster-100: #f3f2f5;
+    --color-mobster-200: #e7e4ea;
+    --color-mobster-300: #d4ced9;
+    --color-mobster-400: #bab0c2;
+    --color-mobster-500: #9d8fa6;
+    --color-mobster-600: #7d6f86;
+    --color-mobster-700: #695c6f;
+    --color-mobster-800: #564c5c;
+    --color-mobster-900: #49414e;
+    --color-mobster-950: #2a242e;
+}
