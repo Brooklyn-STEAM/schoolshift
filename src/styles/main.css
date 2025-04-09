@@ -1,15 +1,37 @@
 @import "tailwindcss";
 
+@import '@fontsource-variable/playfair-display';
+
+
+@import '@fontsource-variable/outfit';
+
 @theme {
-    --color-mobster-50: #faf9fa;
-    --color-mobster-100: #f3f2f5;
-    --color-mobster-200: #e7e4ea;
-    --color-mobster-300: #d4ced9;
-    --color-mobster-400: #bab0c2;
-    --color-mobster-500: #9d8fa6;
-    --color-mobster-600: #7d6f86;
-    --color-mobster-700: #695c6f;
-    --color-mobster-800: #564c5c;
-    --color-mobster-900: #49414e;
-    --color-mobster-950: #2a242e;
+    --color-oracle-50: #f3faf9;
+    --color-oracle-100: #d8efec;
+    --color-oracle-200: #b1ded9;
+    --color-oracle-300: #81c7c1;
+    --color-oracle-400: #57aaa5;
+    --color-oracle-500: #3d8f8c;
+    --color-oracle-600: #307473;
+    --color-oracle-700: #295c5c;
+    --color-oracle-800: #244b4b;
+    --color-oracle-900: #223f3f;
+    --color-oracle-950: #0f2224;
 }
+
+@theme {
+        --color-vulcan-50: #f4f6fb;
+        --color-vulcan-100: #e8ecf6;
+        --color-vulcan-200: #ccd7eb;
+        --color-vulcan-300: #9fb5da;
+        --color-vulcan-400: #6b8dc5;
+        --color-vulcan-500: #486faf;
+        --color-vulcan-600: #365793;
+        --color-vulcan-700: #2d4677;
+        --color-vulcan-800: #283d64;
+        --color-vulcan-900: #263554;
+        --color-vulcan-950: #0e131f;
+}
+body {
+    font-family: 'Playfair Display Variable', serif;
+  }
