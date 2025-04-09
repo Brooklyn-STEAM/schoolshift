@@ -17,6 +17,7 @@
     --color-oracle-800: #244b4b;
     --color-oracle-900: #223f3f;
     --color-oracle-950: #0f2224;
+
 }
 
 @theme {
@@ -31,7 +32,37 @@
         --color-vulcan-800: #283d64;
         --color-vulcan-900: #263554;
         --color-vulcan-950: #0e131f;
+
 }
+
+@theme {
+    --color-iron-50: #f7f7f7;
+    --color-iron-100: #ededed;
+    --color-iron-200: #dfdfdf;
+    --color-iron-300: #cfcfcf;
+    --color-iron-400: #adadad;
+    --color-iron-500: #999999;
+    --color-iron-600: #888888;
+    --color-iron-700: #7b7b7b;
+    --color-iron-800: #676767;
+    --color-iron-900: #545454;
+    --color-iron-950: #363636;
+}
+
+@theme {
+    --color-mobster-50: #faf9fa;
+    --color-mobster-100: #f3f2f5;
+    --color-mobster-200: #e7e4ea;
+    --color-mobster-300: #d4ced9;
+    --color-mobster-400: #bab0c2;
+    --color-mobster-500: #9d8fa6;
+    --color-mobster-600: #7d6f86;
+    --color-mobster-700: #695c6f;
+    --color-mobster-800: #564c5c;
+    --color-mobster-900: #49414e;
+    --color-mobster-950: #2a242e;
+}
+
 body {
     font-family: 'Playfair Display Variable', serif;
   }
