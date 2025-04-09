@@ -21,16 +21,16 @@
 
 @theme {
         --color-vulcan-50: #f4f6fb;
-    --color-vulcan-100: #e8ecf6;
-    --color-vulcan-200: #ccd7eb;
-    --color-vulcan-300: #9fb5da;
-    --color-vulcan-400: #6b8dc5;
-    --color-vulcan-500: #486faf;
-    --color-vulcan-600: #365793;
-    --color-vulcan-700: #2d4677;
-    --color-vulcan-800: #283d64;
-    --color-vulcan-900: #263554;
-    --color-vulcan-950: #0e131f;
+        --color-vulcan-100: #e8ecf6;
+        --color-vulcan-200: #ccd7eb;
+        --color-vulcan-300: #9fb5da;
+        --color-vulcan-400: #6b8dc5;
+        --color-vulcan-500: #486faf;
+        --color-vulcan-600: #365793;
+        --color-vulcan-700: #2d4677;
+        --color-vulcan-800: #283d64;
+        --color-vulcan-900: #263554;
+        --color-vulcan-950: #0e131f;
 }
 body {
     font-family: 'Playfair Display Variable', serif;
