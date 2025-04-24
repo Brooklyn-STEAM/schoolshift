@@ -2,7 +2,6 @@
 
 @import '@fontsource-variable/playfair-display';
 
-
 @import '@fontsource-variable/outfit';
 
 @theme {
@@ -32,6 +31,36 @@
         --color-vulcan-900: #263554;
         --color-vulcan-950: #0e131f;
 }
+
+@theme {
+    --color-mobster-50: #faf9fa;
+    --color-mobster-100: #f3f2f5;
+    --color-mobster-200: #e7e4ea;
+    --color-mobster-300: #d4ced9;
+    --color-mobster-400: #bab0c2;
+    --color-mobster-500: #9d8fa6;
+    --color-mobster-600: #7d6f86;
+    --color-mobster-700: #695c6f;
+    --color-mobster-800: #564c5c;
+    --color-mobster-900: #49414e;
+    --color-mobster-950: #2a242e;
+}
+
+@theme {
+    --color-violet-50: #ebe8ff;
+    --color-violet-100: #dbd5ff;
+    --color-violet-200: #c1b3ff;
+    --color-violet-300: #9f85ff;
+    --color-violet-400: #8b55ff;
+    --color-violet-500: #832fff;
+    --color-violet-600: #830cff;
+    --color-violet-700: #8203ff;
+    --color-violet-800: #6706cd;
+    --color-violet-900: #52109f;
+    --color-violet-950: #20063b;    
+}
+
+
 body {
     font-family: 'Playfair Display Variable', serif;
   }
