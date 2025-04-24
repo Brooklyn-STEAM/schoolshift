@@ -32,7 +32,7 @@
             <span>More</span>
             <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
           </button>
-          <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 w-full md:max-w-screen-sm md:w-screen mt-2 origin-top-right">
+        <div x-show="closed" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 w-full md:max-w-screen-sm md:w-screen mt-2 origin-top-right">
             <div class="px-2 pt-2 pb-4 bg-white rounded-md shadow-lg dark-mode:bg-gray-700">
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <a class="flex row items-start rounded-lg bg-transparent p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="">
@@ -69,9 +69,65 @@
           </div>
         </div>    
       </nav>
+        </div>
+            <h1 class="text-center text-5xl py-8 w-[30%] font-bold m-auto rounded shadow">Welcome!</h1>
+            <p class="py-5 justify-left"></p>
+        </div>
     </div>
-  </div>
+        <main class="p-6 max-w-3xl mx-auto">
+        <article class="bg-white p-6 rounded shadow">
+          <h2 class="text-3xl font-bold mb-2">Concepts of SchoolShift Strategies</h2>
+          <p class="text-sm text-gray-500 mb-4">By Kael Guerrero · April 23, 2025</p>
+          <p class="text-lg leading-relaxed text-gray-700">
+            Schoolshift strategies is one of the website of all time, our main goal is to encourage other students into recieving better education and feel like they belong to school alongside with teachers who struggle to teach the class properly</p>
+            </article>
+      </main>
+      <div class="flex justify-between gap-5 m-15 ">
+        <div class="rounded shadow p-5 w-[125%]">
+            <p class="text-2xl text-center"> What we want students to achieve?</p>
+            <p class="text-l text-center">Our main goal for students is to make sure every student feels like they are really looking foward to be passing that class. To do this, we must give them a survey upon school and ask their opinions on their education</p>
+        </div>
+        <div class="rounded shadow p-5 w-[125%]">
+            <p class="text-2xl text-center"> What we want teachers to feel?</p>
+            <p class="text-l text-center">As for the teachers, we highly educate aswell the teachers and not just throw a teacher who has like an average grade as a student in 2014. We also highly encourage the teachers to feel happy that they are willing to make sure every student is going to pass their class by putting all of their motivation into proving that their class is fun</p>
+        </div>
+        <div class="rounded shadow p-5 w-[125%]">
+            <p class="text-2xl text-center"> What type of expectations should every school must have?</p>
+            <p class="text-l text-center">We want to make sure the school does NOT look like an old abandoned building. To do this, we must offer lots of opportunity programs that keeps the school well and ongoing for their goals. We highly encourage the building to be very neat with no sense of horrible smell</p>
+        </div>
+      </div>
+      <h1 class="text-4xl rounded shadow font-bold text-center m-auto underline w-[30%] py-8">Contents</h1>
+      <div class="flex gap-50 m-15 justify-center">
+        <div class="rounded shadow text-center w-[30%] p-5">
+          <h1 class="font-bold text-center text-2xl">Our Mission</h1>
+          <p class="text-center text-l">Our mission is to make sure every school gets treated well and fair to everyone that is inside the building itself. No Student nor teacher should not be treated different from others. After all, we are all the same people.</p>
+        </div>
+        <div class="rounded shadow text-center w-[30%] p-5">
+          <h1 class="font-bold text-center text-2xl">Our Requirements</h1>
+          <p class="text-center text-l">The requirements to join this business is to be the person who you are, make sure everyone respects you well and keep your grades healthy and prove that you really care for this business in order to be apart of it. You are what your actions do after all.</p>
+        </div>
+      </div>
+      <div class="flex gap-50 m-15 justify-center">
+        <div class="rounded shadow text-center w-[30%] p-5">
+          <h1 class="font-bold text-center text-2xl">Our Location</h1>
+          <p class="text-center text-l">Our business is located in Downtown, Manhattan, New York just near by the World trade center with the building that has the logo itself as the entrance of the building. </p>
+        </div>
+        <div class="rounded shadow text-center w-[30%] p-5">
+          <h1 class="font-bold text-center text-2xl">Our Status</h1>
+          <p class="text-center text-l">Our status with our workers is going really fine. They always make sure that they have respect for each other and cooperate if needed. If there were to be a problem they would just contact the founder.</p>
+        </div>
+      </div>
+
+      
+
+      <h2 class="text-xl text-center p-5"><i>Shift your mind, Stategize your future</i></h2>
+      
+
 </div>
+<div class="rounded shadow-black shadow-2xl p-4">
+  <footer class="relative w-full justify-items-start"> 
+    <p class="text-m text-center pb-5"> © 2025 SchoolShift Strategies SSS. All Rights Reserved</p>
+  </footer>
 </div>
 </body>
 </html>
