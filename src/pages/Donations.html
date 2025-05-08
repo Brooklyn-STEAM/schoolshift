@@ -6,7 +6,38 @@
     <link rel="stylesheet" href="/src/styles/main.css">
     <title>SSS</title>
 </head>
-<body>
+<body class="bg-gray-300">
 <include src="components/navbar.html"></include>
+<div class="flex min-h-screen items-center justify-start ">
+    <div class="mx-auto w-full max-w-lg">
+      <h1 class="text-4xl font-semibold text-oracle-500 text-md ">Donate for students to have a better education </h1>
+      <p class="mt-3">Email us at help@domain.com or message us here:</p>
+      <br>
+      <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" /> 
+      <div class="grid gap-6 sm:grid-cols-2">
+        <div class="relative z-0">
+          <input type="text" name="name" class="peer block w-full appearance-none border-0 border-b bg-transparent py-2.5 
+          px-1 text-sm text-gray-900 border-oracle-500 focus:outline-none focus:ring-0"/>
+          <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-md text-gray-500 duration-300 
+          peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 
+          peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">Your name</label>
+          <br>
+        </div>
+        <br>
+        <br>
+        <div class="relative z-0 col-span-2">
+          <input type="text" name="email" class="peer block w-full appearance-none border-0 border-b  bg-transparent py-2.5 px-0 text-shadow-md text-gray-900 border-oracle-500 focus:outline-none focus:ring-0" />
+          <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-md text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">Your email</label>
+        </div>
+        <div class="relative z-0 col-span-2">
+          <textarea name="message" rows="5" class="peer block w-full appearance-none border-0 border-b bg-transparent py-2.5 px-0 text-sm text-gray-900 border-oracle-600 focus:outline-none focus:ring-0" ></textarea>
+          <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-md text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">Your message</label>
+        </div>
+      </div>
+      <button type="submit" class="mt-5 rounded-md bg-black px-10 py-2 text-white">Send</button>
+    </form>
+  </div>
+</div>
 </body>
+<include src="components/footer.html"></include>
 </html>
