@@ -1,42 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/styles/main.css">
-    <title>SSS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <title>SSS</title>
+  <style>
+    textarea {
+      width: 100%;
+      height: 150px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      font-size: 16px;
+
+    }
+  </style>
+
 </head>
-<body>
-<include src="components/navbar.html" ></include>
-<h1 class="text-center text-2xl mt-7 "></h1>
+
+<body class="bg-mobster-500">
+
+  <include src="components/navbar.html"></include>
+  <h1 class="text-center text-2xl mt-7 "></h1>
 
 
-<div>
-    <p class="text-3xl text-center">For any Questions and/or concerns Please feel free to 
-      Contact us 
+  <div>
+    <p class="text-3xl text-center italic">For any Questions and/or concerns,Please feel free to
+      Contact us.We will try out best to respond ASAP.
     </p>
     <br>
-        <form class="text-center text-3xl p-2 border shadow-black shadow-lg w-[45%] m-auto">
-          <label for="name">Name: </label>
-          <span class="icon-[ic--baseline-access-alarms]"></span>
-           <input type="text" name="name" class="border">
-           <br>
-           <label for="email">Emai: </label>
-           <input type="text" email="email" class="border">
-           <br>
-           <label for="phone">Phone: </label>
-           <input type="text" phone="phone" class="border">
-          
+    <form class="text-center text-2xl bg-oracle-500 p-2 border shadow-black shadow-lg w-[45%] m-auto">
+      <label class="italic" for="name">Name: </label>
+      <span class="icon-[el--person]" style="color: #3903ff;"></span>
+      <input type="text" name="name" class="border m-5">
 
-          
-         
-        </form>
-        <br>
+      <br>
 
-</div>
+      <label class="italic" for="email">Email: </label>
+      <span class="icon-[material-symbols-light--mail-outline]" style="color: #3903ff;"></span>
+
+      <input type="text" email="email" class="border m-5">
+
+
+      <br>
+
+      <label class="italic" for="phone">Phone (Optional): </label>
+      <span class="icon-[mage--phone-fill]" style="color: #3903ff;"></span>
+
+      <input type="text" phone="phone" class="border m-5">
+
+
+      <br>
+
+      <p class="italic">Preferred Contact(How you want us to reach you)</p>
+      <input type="radio" id="Phone" name="Preferred Contact" value="Phone">
+      <label class="italic" for="html">Phone</label>
+      <br>
+
+      <input type="radio" id="Email" name="Preferred Contact" value="Email">
+      <label class="italic" for="Email">Email</label>
+
+      <br>
+
+      <label class="italic" for="message">Message:</label>
+
+      <br>
+
+      <textarea class="border"></textarea>
+      <br>
+      <button type="reset"><span class="icon-[fluent--eraser-20-filled]" style="color: #3903ff;"></span></button>
+      <button type="submit"><span class="icon-[formkit--submit]" style="color: #3903ff;"></span></button>
+
+
+
+
+
+
+
+
+    </form>
+    <br>
+
+  </div>
 
 
 
 </body>
 <include src="components/footer.html"></include>
+
 </html>
