@@ -1,18 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Method</title>
     <link rel="stylesheet" href="/src/styles/main.css">
 </head>
+
 <body class="bg-blue-300">
     <include src="components/navbar.html"></include>
-    <div class="flex justify-center items-center text-5xl bg-indigo-400 m-auto w-[30%] rounded-4xl shadow-2xl mt-10 p-5 font-semibold">
+    <div
+        class="flex justify-center items-center text-5xl bg-indigo-400 m-auto w-[30%] rounded-4xl shadow-2xl mt-10 p-5 font-bold">
         <h1>Payment method</h1>
     </div>
-    <div class="flex justify-center items-center text-5xl bg-gray-400 mt-10 p-5 m-auto w-[30%]">
+    <div
+        class="flex justify-center items-center text-center text-2xl bg-gray-400 mb-5 mt-10 p-3 rounded-2xl font-semibold shadow-2xl m-auto w-[30%]">
         <h1>How would you like to pay?</h1>
     </div>
+    <form class="p-6 text-3xl max-w-4xl mx-auto bg-mobster-200 flex mb-5">
+        <div class="flex-1/2 ">
+            <div class="items-center flex justify-start p-2 pb-12">
+                <input type="radio" name="card" id="Amex"> <label class="flex justify-center items-center"
+                    for="Amex"><span class="ml-1 icon-[logos--amex]"></span><i
+                    data-lucide="Amex"></i></label>
+            </div>
+            <div class="items-center flex justify-start p-2 pb-12">
+                <input type="radio" name="card" id="mastercard"> <label class="flex justify-center items-center"
+                    for="mastercard"><span class="ml-1 icon-[logos--mastercard]"></span><i
+                        data-lucide="Paypal"></i></label>
+            </div>
+            <div class="items-center flex justify-start p-2 pb-12">
+                <input type="radio" name="card" id="visa"> <label class="flex justify-center items-center"
+                    for="visa"><span class="icon-[logos--visa]"></span><i
+                        data-lucide="Paypal"></i></label>
+            </div>
+            <div class="items-center flex justify-start p-2 pb-12">
+                <input type="radio" name="card" id="discover"> <label class="flex justify-center items-center"
+                    for="discover"><span class="ml-1 icon-[logos--discover]"></span><i
+                        data-lucide="discover"></i></label>
+            </div>
+            <div class="items-center flex justify-start p-2">
+                <input type="radio" name="card" id="jcb"> <label class="flex justify-center items-center"
+                    for="jcb"><span class="ml-1 icon-[logos--jcb]"></span><i
+                        data-lucide="jcb"></i></label>
+            </div>    
+        </div>
+        <div class="flex-1/2 text-2xl font-semibold">
+            <div>
+                <label>First Name here</label>
+                <br>
+                <input class="bg-mobster-300 p-1" type="text" required />
+            </div>
+            <div>
+                <label>Last Name here</label>
+                <br>
+                <input class="bg-mobster-300 p-1" type="text" required />
+            </div>
+            <div>
+                <label>Card Number</label>
+                <br>
+                <input class="bg-mobster-300 p-1" type="tel" required />
+            </div>
+            <div>
+                <label for="exp">Expiration Date</label>
+                <br>
+                <input class="bg-mobster-300 p-1" id="exp" type="month" required />
+            </div>
+            <div>
+                <label>Security code</label>
+                <br>
+                <input class="bg-mobster-300 p-1" type="tel" required />
+            </div>
+            <div>
+                <input class="border mt-3" type="submit">
+            </div>
+        </div>
+    </form>
 </body>
+
 </html>
